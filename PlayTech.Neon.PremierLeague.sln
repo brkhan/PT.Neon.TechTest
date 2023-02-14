@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayTech.Neon.PremierLeague", "PlayTech.Neon.PremierLeague\PlayTech.Neon.PremierLeague.csproj", "{8F14A537-5AF3-493C-BDA0-F2D78CE81BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayTech.Neon.PremierLeague.Domain", "PlayTech.Neon.PremierLeague.Domain\PlayTech.Neon.PremierLeague.Domain.csproj", "{D4818EC4-F421-4828-9EF6-257A3D1800E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayTech.Neon.PremierLeague.Repository", "PlayTech.Neon.PremierLeague.Repository\PlayTech.Neon.PremierLeague.Repository.csproj", "{EE275888-6197-417C-9932-EE4797CE21DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayTech.Neon.PremierLeague.UnitTests", "PlayTech.Neon.PremierLeague.UnitTests\PlayTech.Neon.PremierLeague.UnitTests.csproj", "{CCCAB78F-18BE-41F2-8CC6-A3BAC529F7DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F14A537-5AF3-493C-BDA0-F2D78CE81BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F14A537-5AF3-493C-BDA0-F2D78CE81BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F14A537-5AF3-493C-BDA0-F2D78CE81BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F14A537-5AF3-493C-BDA0-F2D78CE81BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4818EC4-F421-4828-9EF6-257A3D1800E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4818EC4-F421-4828-9EF6-257A3D1800E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4818EC4-F421-4828-9EF6-257A3D1800E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4818EC4-F421-4828-9EF6-257A3D1800E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE275888-6197-417C-9932-EE4797CE21DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE275888-6197-417C-9932-EE4797CE21DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE275888-6197-417C-9932-EE4797CE21DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE275888-6197-417C-9932-EE4797CE21DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCAB78F-18BE-41F2-8CC6-A3BAC529F7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCAB78F-18BE-41F2-8CC6-A3BAC529F7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCAB78F-18BE-41F2-8CC6-A3BAC529F7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCAB78F-18BE-41F2-8CC6-A3BAC529F7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EB7E4BD-DE2A-46A1-8B24-DA9BB74905C8}
+	EndGlobalSection
+EndGlobal
