@@ -28,7 +28,7 @@ namespace PlayTech.Neon.PremierLeague
             services.AddTransient<IPlayerSelectionValidationRule, MaximumBudgetPlayerSelectionValidationRule>();
             services.AddTransient<IPlayerSelectionValidationRule, SameClubPlayerSelectionValidationRule>();
             services.AddTransient<IPlayerSelectionValidationRule, TotalNumberPlayerSelectionValidationRule>();
-            services.AddTransient<IPlayerRepository, PlayerRepository>();
+            services.AddSingleton<IPlayerRepository, PlayerRepository>();
 
         }
 
